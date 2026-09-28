@@ -1,0 +1,29 @@
+{
+  "id": 8,
+  "titulo": "Brian Heder",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/brian-heder.jpg",
+  "alt": "Brian Heder, de camisa havaiana e óculos na cabeça, apontando para alguém enquanto segura um pacote",
+  "descricao": [
+    "Brian Heder é um traficante e contrabandista veterano que atua nas Leonida Keys desde os velhos tempos. Ele conhece cada ilha e cada rota de barco da região.",
+    "Jason Duval trabalha para Brian e mora em uma de suas propriedades, pagando o aluguel com serviços. A relação entre os dois é o ponto de partida da vida de Jason no crime em Leonida."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Coadjuvante"
+    },
+    {
+      "rotulo": "Região",
+      "valor": "Leonida Keys"
+    },
+    {
+      "rotulo": "Ligação",
+      "valor": "Chefe de Jason"
+    }
+  ],
+  "curiosidades": [
+    "Representa a velha guarda do crime nas Keys, em contraste com a nova geração de Lucia e Jason."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 9,
+  "titulo": "Vice City",
+  "categoria": "Locais",
+  "imagem": "img/locais/vice-city.jpg",
+  "alt": "Letreiro gigante com as letras VICE CITY ao pôr do sol, com um avião passando no céu",
+  "descricao": [
+    "Vice City é a principal cidade de GTA VI e fica no estado fictício de Leonida. Inspirada em Miami, ela mistura praias, arranha-céus, vida noturna intensa e muito neon.",
+    "A cidade já tinha aparecido em GTA: Vice City (2002) e em GTA: Vice City Stories (2006), que se passavam nos anos 1980. Em GTA VI ela retorna em uma versão atual e muito mais detalhada."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Inspiração real",
+      "valor": "Miami (Flórida, EUA)"
+    },
+    {
+      "rotulo": "Tipo",
+      "valor": "Metrópole litorânea"
+    },
+    {
+      "rotulo": "Estado",
+      "valor": "Leonida"
+    }
+  ],
+  "curiosidades": [
+    "É a volta da série a Vice City depois de quase 20 anos.",
+    "O estado de Leonida é a versão da Flórida no universo GTA."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

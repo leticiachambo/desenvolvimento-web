@@ -1,0 +1,29 @@
+{
+  "id": 4,
+  "titulo": "Boobie Ike",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/boobie-ike.jpg",
+  "alt": "Boobie Ike, com corrente dourada, segurando um copo em uma casa noturna iluminada em roxo e rosa",
+  "descricao": [
+    "Boobie Ike é uma figura conhecida de Vice City. Ele conseguiu transformar o que ganhou nas ruas em um pequeno império de negócios, que inclui imóveis, uma casa noturna e o estúdio Only Raw Records.",
+    "Boobie é carismático e prático: para ele, tudo é uma questão de negócio. É um contato importante para quem quer crescer em Vice City."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Coadjuvante"
+    },
+    {
+      "rotulo": "Negócios",
+      "valor": "Imóveis, casa noturna e gravadora"
+    },
+    {
+      "rotulo": "Cidade",
+      "valor": "Vice City"
+    }
+  ],
+  "curiosidades": [
+    "É sócio de Dre'Quan Priest na gravadora Only Raw Records."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

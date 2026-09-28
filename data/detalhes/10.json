@@ -1,0 +1,29 @@
+{
+  "id": 10,
+  "titulo": "Leonida Keys",
+  "categoria": "Locais",
+  "imagem": "img/locais/leonida-keys.jpg",
+  "alt": "Vista aérea de ilhas com água azul-turquesa ligadas por uma ponte, com um hidroavião voando baixo",
+  "descricao": [
+    "As Leonida Keys formam um arquipélago de ilhas ao sul de Vice City, ligadas por longas pontes sobre o mar. O clima é de paraíso tropical, com marinas, barcos e hidroaviões.",
+    "Por trás da paisagem, as Keys são rota de contrabando — é ali que Jason Duval vive e trabalha para Brian Heder."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Inspiração real",
+      "valor": "Florida Keys"
+    },
+    {
+      "rotulo": "Tipo",
+      "valor": "Arquipélago tropical"
+    },
+    {
+      "rotulo": "Personagens ligados",
+      "valor": "Jason Duval, Brian Heder"
+    }
+  ],
+  "curiosidades": [
+    "A região lembra a famosa Overseas Highway, estrada que liga as Florida Keys."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

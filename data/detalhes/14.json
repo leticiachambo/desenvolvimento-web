@@ -1,0 +1,29 @@
+{
+  "id": 14,
+  "titulo": "Mount Kalaga National Park",
+  "categoria": "Locais",
+  "imagem": "img/locais/mount-kalaga.jpg",
+  "alt": "Estrada serpenteando entre montanhas e vegetação densa em um vale, com pássaros voando",
+  "descricao": [
+    "O Mount Kalaga National Park é uma grande área natural no norte de Leonida, com montanhas, florestas, rios e estradas sinuosas.",
+    "É o lugar para explorar a natureza, fazer trilhas, caçar e dirigir fora de estrada, bem longe do asfalto das cidades."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Parque nacional"
+    },
+    {
+      "rotulo": "Relevo",
+      "valor": "Montanhas e vales"
+    },
+    {
+      "rotulo": "Atividades",
+      "valor": "Trilhas, caça e off-road"
+    }
+  ],
+  "curiosidades": [
+    "Lembra o papel do Mount Chiliad em GTA V: uma grande área natural para explorar."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

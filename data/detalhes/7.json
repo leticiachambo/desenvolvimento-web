@@ -1,0 +1,29 @@
+{
+  "id": 7,
+  "titulo": "Raul Bautista",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/raul-bautista.jpg",
+  "alt": "Raul Bautista, de cabelo comprido e blazer branco, em uma rua com luzes neon à noite",
+  "descricao": [
+    "Raul Bautista é um assaltante de bancos veterano. Confiante e carismático, ele sabe que o sucesso de um grande golpe depende das pessoas certas.",
+    "Por isso está sempre à procura de novos talentos dispostos a correr riscos cada vez maiores — o que pode cruzar seu caminho com o de Lucia e Jason."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Coadjuvante"
+    },
+    {
+      "rotulo": "Especialidade",
+      "valor": "Assalto a bancos"
+    },
+    {
+      "rotulo": "Perfil",
+      "valor": "Experiente e carismático"
+    }
+  ],
+  "curiosidades": [
+    "Personagens como Raul remetem às missões de assalto (heists), marcantes em GTA V."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

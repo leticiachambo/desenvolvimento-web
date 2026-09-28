@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "titulo": "Lucia Caminos",
+    "categoria": "Personagens",
+    "resumo": "Protagonista de GTA VI. Aprendeu a lutar ainda criança e saiu da Penitenciária de Leonida decidida a mudar de vida.",
+    "imagem": "img/personagens/lucia-caminos.jpg",
+    "alt": "Lucia Caminos, de jaqueta de couro, sentada em uma moto amarela em frente a um letreiro neon de bar à noite"
+  },
+  {
+    "id": 2,
+    "titulo": "Jason Duval",
+    "categoria": "Personagens",
+    "resumo": "Protagonista de GTA VI. Ex-militar que cresceu entre golpistas e hoje trabalha para traficantes nas Leonida Keys.",
+    "imagem": "img/personagens/jason-duval.jpg",
+    "alt": "Jason Duval, de camisa estampada, olhando o celular encostado em uma palmeira em frente a um hotel iluminado de Vice City"
+  },
+  {
+    "id": 3,
+    "titulo": "Cal Hampton",
+    "categoria": "Personagens",
+    "resumo": "Amigo e parceiro de Jason. Prefere ficar em casa, desconfia de tudo e adora uma teoria da conspiração.",
+    "imagem": "img/personagens/cal-hampton.jpg",
+    "alt": "Cal Hampton, de chapéu e camisa florida, segurando um taco em um minigolfe com estátua de jacaré"
+  },
+  {
+    "id": 4,
+    "titulo": "Boobie Ike",
+    "categoria": "Personagens",
+    "resumo": "Lenda local de Vice City que transformou o dinheiro das ruas em negócios: imóveis, casa noturna e gravadora.",
+    "imagem": "img/personagens/boobie-ike.jpg",
+    "alt": "Boobie Ike, com corrente dourada, segurando um copo em uma casa noturna iluminada em roxo e rosa"
+  },
+  {
+    "id": 5,
+    "titulo": "Dre'Quan Priest",
+    "categoria": "Personagens",
+    "resumo": "Empresário musical e sócio de Boobie Ike na Only Raw Records. Quer levar o Real Dimez ao topo.",
+    "imagem": "img/personagens/drequan-priest.jpg",
+    "alt": "Dre'Quan Priest, de blazer azul e óculos escuros, em uma festa na piscina com letreiro neon ao fundo"
+  },
+  {
+    "id": 6,
+    "titulo": "Real Dimez",
+    "categoria": "Personagens",
+    "resumo": "Dupla de rap formada por Bae-Luxe e Roxy, amigas de longa data que buscam a fama em Vice City.",
+    "imagem": "img/personagens/real-dimez.jpg",
+    "alt": "Roxy, integrante do Real Dimez, com casaco de pelúcia verde e colar escrito ROXY, ao volante de um carro"
+  },
+  {
+    "id": 7,
+    "titulo": "Raul Bautista",
+    "categoria": "Personagens",
+    "resumo": "Assaltante de bancos experiente e confiante, sempre à procura de novos talentos para golpes maiores.",
+    "imagem": "img/personagens/raul-bautista.jpg",
+    "alt": "Raul Bautista, de cabelo comprido e blazer branco, em uma rua com luzes neon à noite"
+  },
+  {
+    "id": 8,
+    "titulo": "Brian Heder",
+    "categoria": "Personagens",
+    "resumo": "Contrabandista das antigas nas Leonida Keys. Jason trabalha para ele e mora em uma de suas propriedades.",
+    "imagem": "img/personagens/brian-heder.jpg",
+    "alt": "Brian Heder, de camisa havaiana e óculos na cabeça, apontando para alguém enquanto segura um pacote"
+  },
+  {
+    "id": 9,
+    "titulo": "Vice City",
+    "categoria": "Locais",
+    "resumo": "A maior cidade do estado de Leonida, inspirada em Miami, cheia de praias, festas, neon e excessos.",
+    "imagem": "img/locais/vice-city.jpg",
+    "alt": "Letreiro gigante com as letras VICE CITY ao pôr do sol, com um avião passando no céu"
+  },
+  {
+    "id": 10,
+    "titulo": "Leonida Keys",
+    "categoria": "Locais",
+    "resumo": "Arquipélago de ilhas tropicais ligado por pontes, com águas cristalinas, barcos e contrabando.",
+    "imagem": "img/locais/leonida-keys.jpg",
+    "alt": "Vista aérea de ilhas com água azul-turquesa ligadas por uma ponte, com um hidroavião voando baixo"
+  },
+  {
+    "id": 11,
+    "titulo": "Grassrivers",
+    "categoria": "Locais",
+    "resumo": "Enorme região de pântanos, com jacarés, aerobarcos e comunidades isoladas.",
+    "imagem": "img/locais/grassrivers.jpg",
+    "alt": "Três homens sorridentes posando em um aerobarco no pântano, com um jacaré capturado à frente"
+  },
+  {
+    "id": 12,
+    "titulo": "Port Gellhorn",
+    "categoria": "Locais",
+    "resumo": "Cidade portuária decadente, com motéis de beira de estrada e um passado melhor que o presente.",
+    "imagem": "img/locais/port-gellhorn.jpg",
+    "alt": "Motel de beira de estrada com letreiro neon Starlet Motel, cercado de palmeiras ao anoitecer"
+  },
+  {
+    "id": 13,
+    "titulo": "Ambrosia",
+    "categoria": "Locais",
+    "resumo": "Região industrial e agrícola dominada por uma grande refinaria de açúcar e por gangues de motoqueiros.",
+    "imagem": "img/locais/ambrosia.jpg",
+    "alt": "Vista noturna de uma região industrial com chaminés soltando fumaça e luzes espalhadas"
+  },
+  {
+    "id": 14,
+    "titulo": "Mount Kalaga National Park",
+    "categoria": "Locais",
+    "resumo": "Parque nacional com montanhas, florestas e trilhas, ideal para caça, off-road e aventura.",
+    "imagem": "img/locais/mount-kalaga.jpg",
+    "alt": "Estrada serpenteando entre montanhas e vegetação densa em um vale, com pássaros voando"
+  },
+  {
+    "id": 15,
+    "titulo": "Grotti Cheetah",
+    "categoria": "Veículos",
+    "resumo": "Esportivo clássico da série GTA, com visual inspirado nos superesportivos italianos dos anos 1980.",
+    "imagem": "img/veiculos/grotti-cheetah.jpg",
+    "alt": "Esportivo branco com faixas vermelhas e faróis acesos estacionado em uma rua de pedra ao pôr do sol"
+  },
+  {
+    "id": 16,
+    "titulo": "Motocicleta Off-road",
+    "categoria": "Veículos",
+    "resumo": "Moto trail de estilo retrô, pronta para estradas de terra e trilhas do interior de Leonida.",
+    "imagem": "img/veiculos/motocicleta-trail.jpg",
+    "alt": "Motocicleta off-road verde-oliva estacionada em frente a uma porta de garagem verde-água"
+  },
+  {
+    "id": 17,
+    "titulo": "Caiaque",
+    "categoria": "Veículos",
+    "resumo": "Caiaque para explorar canais, rios e o litoral de Leonida de forma tranquila.",
+    "imagem": "img/veiculos/caiaque.jpg",
+    "alt": "Pessoa remando um caiaque laranja em águas calmas ao pôr do sol, com casas e palmeiras ao fundo"
+  },
+  {
+    "id": 18,
+    "titulo": "Squalo",
+    "categoria": "Veículos",
+    "resumo": "Lancha rápida e elegante, tradicional na série desde GTA: Vice City.",
+    "imagem": "img/veiculos/squalo.jpg",
+    "alt": "Lancha branca com o nome Squalo na lateral, parada em um canal com palmeiras ao fundo"
+  },
+  {
+    "id": 19,
+    "titulo": "Vapid Buggy",
+    "categoria": "Veículos",
+    "resumo": "Carro antigo transformado em off-road, com suspensão elevada e pneus enormes para lama.",
+    "imagem": "img/veiculos/vapid-buggy.jpg",
+    "alt": "Carro antigo elevado com pneus gigantes de lama e faróis auxiliares, estacionado em frente a uma oficina"
+  },
+  {
+    "id": 20,
+    "titulo": "Vapid Ganado",
+    "categoria": "Veículos",
+    "resumo": "Picape cupê de estilo retrô, amarela com faixas laranja, em versão customizada.",
+    "imagem": "img/veiculos/vapid-ganado.jpg",
+    "alt": "Picape cupê amarela com faixas laranja fazendo curva em uma estrada à beira-mar"
+  },
+  {
+    "id": 21,
+    "titulo": "Vapid Stanier Vintage",
+    "categoria": "Veículos",
+    "resumo": "Sedã clássico dos anos 1950, amarelo e branco, cercado pelo neon de Vice City.",
+    "imagem": "img/veiculos/vapid-stanier.jpg",
+    "alt": "Sedã antigo amarelo e branco dos anos 1950 estacionado em uma rua com letreiros neon"
+  },
+  {
+    "id": 22,
+    "titulo": "Visual Ultimate Edition",
+    "categoria": "Vestuário",
+    "resumo": "Lucia e Jason com roupas exclusivas apresentadas na divulgação da Ultimate Edition.",
+    "imagem": "img/vestuario/ultimate-edition.jpg",
+    "alt": "Lucia com jaqueta marrom e óculos e Jason com camisa estampada e óculos amarelos, entre palmeiras ao pôr do sol"
+  },
+  {
+    "id": 23,
+    "titulo": "Sara's Salon",
+    "categoria": "Vestuário",
+    "resumo": "Salão de beleza onde é possível personalizar o visual, das unhas ao estilo completo.",
+    "imagem": "img/vestuario/saras-salon.jpg",
+    "alt": "Mulher de óculos escuros e blusa estampada fazendo as unhas em um salão de beleza"
+  },
+  {
+    "id": 24,
+    "titulo": "Vice City Style — Camisa",
+    "categoria": "Vestuário",
+    "resumo": "Camisa estampada com paisagem tropical, um clássico do estilo Vice City.",
+    "imagem": "img/vestuario/vice-city-style-camisa.jpg",
+    "alt": "Jason de costas vestindo camisa estampada com desenho de paisagem tropical e calça bege"
+  },
+  {
+    "id": 25,
+    "titulo": "Vice City Style — Botas",
+    "categoria": "Vestuário",
+    "resumo": "Botas de cano alto com estampa de zebra, parte do guarda-roupa ousado de Lucia.",
+    "imagem": "img/vestuario/vice-city-style-botas.jpg",
+    "alt": "Lucia sentada em um banco de piscina usando botas de cano alto com estampa de zebra e jaqueta marrom"
+  },
+  {
+    "id": 26,
+    "titulo": "Vintage Vice City — Looks",
+    "categoria": "Vestuário",
+    "resumo": "Looks exclusivos inspirados nas discotecas dos anos 1970 e 1980 da antiga Vice City.",
+    "imagem": "img/vestuario/vintage-looks.jpg",
+    "alt": "Casal dançando em uma discoteca com luzes roxas, ele de terno cinza e ela de vestido vermelho brilhante"
+  }
+]

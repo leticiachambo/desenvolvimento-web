@@ -1,0 +1,29 @@
+{
+  "id": 11,
+  "titulo": "Grassrivers",
+  "categoria": "Locais",
+  "imagem": "img/locais/grassrivers.jpg",
+  "alt": "Três homens sorridentes posando em um aerobarco no pântano, com um jacaré capturado à frente",
+  "descricao": [
+    "Grassrivers é uma vasta área de pântanos e rios rasos no interior de Leonida. É o território dos jacarés, dos aerobarcos e de comunidades que vivem longe da agitação de Vice City.",
+    "A região oferece um cenário selvagem e perigoso, ideal para perseguições, caça e atividades fora da lei."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Inspiração real",
+      "valor": "Everglades (Flórida)"
+    },
+    {
+      "rotulo": "Tipo",
+      "valor": "Pântano / área selvagem"
+    },
+    {
+      "rotulo": "Destaques",
+      "valor": "Jacarés e aerobarcos"
+    }
+  ],
+  "curiosidades": [
+    "Aerobarcos (airboats) são o meio de transporte típico da região."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

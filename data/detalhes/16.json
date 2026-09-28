@@ -1,0 +1,29 @@
+{
+  "id": 16,
+  "titulo": "Motocicleta Off-road",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/motocicleta-trail.jpg",
+  "alt": "Motocicleta off-road verde-oliva estacionada em frente a uma porta de garagem verde-água",
+  "descricao": [
+    "Motocicleta de estilo scrambler/trail, com pneus para terra, banco longo e pintura verde-oliva. Faz parte dos veículos exibidos no material de divulgação ligados ao esconderijo (safehouse) dos personagens.",
+    "É uma opção ágil para atravessar trilhas, pântanos e estradas de terra, como as de Grassrivers e do Mount Kalaga."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Motocicleta"
+    },
+    {
+      "rotulo": "Terreno",
+      "valor": "Terra e asfalto"
+    },
+    {
+      "rotulo": "Estilo",
+      "valor": "Retrô / scrambler"
+    }
+  ],
+  "curiosidades": [
+    "Motos são fundamentais para explorar áreas rurais em jogos de mundo aberto da Rockstar."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

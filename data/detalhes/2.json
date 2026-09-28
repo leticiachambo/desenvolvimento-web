@@ -1,0 +1,30 @@
+{
+  "id": 2,
+  "titulo": "Jason Duval",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/jason-duval.jpg",
+  "alt": "Jason Duval, de camisa estampada, olhando o celular encostado em uma palmeira em frente a um hotel iluminado de Vice City",
+  "descricao": [
+    "Jason Duval é o segundo protagonista de GTA VI. Ele quer uma vida fácil, mas as coisas só ficam mais difíceis. Cresceu cercado de golpistas e bandidos e tentou deixar a adolescência problemática para trás servindo no Exército.",
+    "Depois disso, foi parar nas Leonida Keys fazendo o que sabe melhor: trabalhando para traficantes locais. Conhecer Lucia pode ser a melhor ou a pior coisa que já aconteceu com ele."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Protagonista"
+    },
+    {
+      "rotulo": "Parceira",
+      "valor": "Lucia Caminos"
+    },
+    {
+      "rotulo": "Região",
+      "valor": "Leonida Keys"
+    }
+  ],
+  "curiosidades": [
+    "Mora nas Leonida Keys, em uma propriedade ligada a Brian Heder.",
+    "É o parceiro de Lucia durante toda a história."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

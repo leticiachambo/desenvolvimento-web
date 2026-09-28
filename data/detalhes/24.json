@@ -1,0 +1,29 @@
+{
+  "id": 24,
+  "titulo": "Vice City Style — Camisa",
+  "categoria": "Vestuário",
+  "imagem": "img/vestuario/vice-city-style-camisa.jpg",
+  "alt": "Jason de costas vestindo camisa estampada com desenho de paisagem tropical e calça bege",
+  "descricao": [
+    "Jason aparece de costas exibindo uma camisa de botões com estampa de paisagem tropical — mar, barco e flores — combinada com calça bege.",
+    "O visual resume o \"Vice City Style\": leve, colorido e perfeito para o calor de Leonida."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem usa",
+      "valor": "Jason Duval"
+    },
+    {
+      "rotulo": "Peça",
+      "valor": "Camisa estampada"
+    },
+    {
+      "rotulo": "Pacote",
+      "valor": "Vice City Style (Ultimate Edition)"
+    }
+  ],
+  "curiosidades": [
+    "Camisas estampadas são referência direta ao protagonista Tommy Vercetti, de GTA: Vice City."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

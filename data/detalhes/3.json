@@ -1,0 +1,29 @@
+{
+  "id": 3,
+  "titulo": "Cal Hampton",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/cal-hampton.jpg",
+  "alt": "Cal Hampton, de chapéu e camisa florida, segurando um taco em um minigolfe com estátua de jacaré",
+  "descricao": [
+    "Cal Hampton é amigo próximo de Jason Duval e participa de alguns de seus trabalhos. Ele se sente mais à vontade em casa, longe da confusão, acompanhando o rádio e a internet.",
+    "Desconfiado por natureza, Cal acredita que está sempre sendo vigiado e tem uma teoria para quase tudo, o que rende boa parte do humor ligado ao personagem."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Coadjuvante"
+    },
+    {
+      "rotulo": "Ligação",
+      "valor": "Amigo de Jason"
+    },
+    {
+      "rotulo": "Traço marcante",
+      "valor": "Paranoia e teorias da conspiração"
+    }
+  ],
+  "curiosidades": [
+    "Representa o tom satírico típico da série GTA sobre internet e teorias da conspiração."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

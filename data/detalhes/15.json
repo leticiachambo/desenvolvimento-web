@@ -1,0 +1,30 @@
+{
+  "id": 15,
+  "titulo": "Grotti Cheetah",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/grotti-cheetah.jpg",
+  "alt": "Esportivo branco com faixas vermelhas e faróis acesos estacionado em uma rua de pedra ao pôr do sol",
+  "descricao": [
+    "O Cheetah é um dos carros mais tradicionais da série GTA. Fabricado pela Grotti, a marca de superesportivos italianos do universo do jogo, ele aparece aqui com pintura branca e faixas vermelhas.",
+    "O visual — faróis retangulares, entradas de ar laterais e linhas retas — remete aos esportivos dos anos 1980, combinando com o clima de Vice City."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Carro esportivo"
+    },
+    {
+      "rotulo": "Fabricante (no jogo)",
+      "valor": "Grotti"
+    },
+    {
+      "rotulo": "Estilo",
+      "valor": "Anos 1980"
+    }
+  ],
+  "curiosidades": [
+    "O Cheetah aparece na série desde os primeiros jogos em 3D.",
+    "Grotti é a paródia da Ferrari no universo GTA."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

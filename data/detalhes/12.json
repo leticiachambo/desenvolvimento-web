@@ -1,0 +1,29 @@
+{
+  "id": 12,
+  "titulo": "Port Gellhorn",
+  "categoria": "Locais",
+  "imagem": "img/locais/port-gellhorn.jpg",
+  "alt": "Motel de beira de estrada com letreiro neon Starlet Motel, cercado de palmeiras ao anoitecer",
+  "descricao": [
+    "Port Gellhorn é uma cidade litorânea esquecida, que já viveu dias melhores. Motéis antigos, comércios fechados e ruas vazias mostram o lado decadente de Leonida.",
+    "É um lugar de pessoas que ficaram para trás e de negócios nada legítimos, bem diferente do brilho de Vice City."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Inspiração real",
+      "valor": "Costa do Golfo da Flórida"
+    },
+    {
+      "rotulo": "Tipo",
+      "valor": "Cidade portuária"
+    },
+    {
+      "rotulo": "Clima",
+      "valor": "Decadente e isolado"
+    }
+  ],
+  "curiosidades": [
+    "O Starlet Motel, na imagem, simboliza o clima de cidade parada no tempo."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

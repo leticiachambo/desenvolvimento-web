@@ -1,0 +1,29 @@
+{
+  "id": 21,
+  "titulo": "Vapid Stanier Vintage",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/vapid-stanier.jpg",
+  "alt": "Sedã antigo amarelo e branco dos anos 1950 estacionado em uma rua com letreiros neon",
+  "descricao": [
+    "O Vapid Stanier aparece aqui em uma versão vintage, com linhas dos anos 1950: cromados, pintura em dois tons (amarelo e branco) e faróis redondos.",
+    "O carro faz parte do material de divulgação do pacote \"Vintage Vice City\", que resgata a estética clássica da cidade."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Sedã clássico"
+    },
+    {
+      "rotulo": "Fabricante (no jogo)",
+      "valor": "Vapid"
+    },
+    {
+      "rotulo": "Pacote",
+      "valor": "Vintage Vice City"
+    }
+  ],
+  "curiosidades": [
+    "O nome Stanier já era usado na série em GTA IV e GTA V, em modelos mais modernos."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

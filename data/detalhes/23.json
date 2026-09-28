@@ -1,0 +1,29 @@
+{
+  "id": 23,
+  "titulo": "Sara's Salon",
+  "categoria": "Vestuário",
+  "imagem": "img/vestuario/saras-salon.jpg",
+  "alt": "Mulher de óculos escuros e blusa estampada fazendo as unhas em um salão de beleza",
+  "descricao": [
+    "O Sara's Salon é um salão de beleza de Vice City mostrado no material de divulgação. Na imagem, uma cliente de óculos escuros e blusa estampada faz as unhas.",
+    "Salões e lojas permitem personalizar a aparência dos personagens, uma tradição da série desde GTA: San Andreas."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Salão de beleza"
+    },
+    {
+      "rotulo": "Serviço",
+      "valor": "Personalização de visual"
+    },
+    {
+      "rotulo": "Pacote",
+      "valor": "Ultimate Edition"
+    }
+  ],
+  "curiosidades": [
+    "Personalização de aparência (cabelo, roupas, tatuagens) é um recurso clássico da série."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

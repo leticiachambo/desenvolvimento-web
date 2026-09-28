@@ -1,0 +1,29 @@
+{
+  "id": 5,
+  "titulo": "Dre'Quan Priest",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/drequan-priest.jpg",
+  "alt": "Dre'Quan Priest, de blazer azul e óculos escuros, em uma festa na piscina com letreiro neon ao fundo",
+  "descricao": [
+    "Dre'Quan Priest sempre quis ser um grande nome da música. Ele comanda a gravadora Only Raw Records ao lado de Boobie Ike e aposta suas fichas na dupla de rap Real Dimez.",
+    "Ambicioso, Dre'Quan equilibra o mundo das festas e da música com negócios menos legítimos de Vice City."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Coadjuvante"
+    },
+    {
+      "rotulo": "Negócio",
+      "valor": "Only Raw Records"
+    },
+    {
+      "rotulo": "Artistas",
+      "valor": "Real Dimez"
+    }
+  ],
+  "curiosidades": [
+    "A gravadora dele representa a sátira da série à indústria musical e à cultura das redes sociais."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

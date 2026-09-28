@@ -1,0 +1,29 @@
+{
+  "id": 6,
+  "titulo": "Real Dimez",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/real-dimez.jpg",
+  "alt": "Roxy, integrante do Real Dimez, com casaco de pelúcia verde e colar escrito ROXY, ao volante de um carro",
+  "descricao": [
+    "Real Dimez é a dupla de rap formada por Bae-Luxe e Roxy. Amigas desde a escola, elas ganharam destaque com um sucesso que viralizou e agora tentam transformar essa fama em uma carreira de verdade.",
+    "A dupla é contratada pela Only Raw Records, de Boobie Ike e Dre'Quan Priest, e representa o lado da música e das redes sociais em Vice City."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Coadjuvantes"
+    },
+    {
+      "rotulo": "Integrantes",
+      "valor": "Bae-Luxe e Roxy"
+    },
+    {
+      "rotulo": "Gravadora",
+      "valor": "Only Raw Records"
+    }
+  ],
+  "curiosidades": [
+    "Na imagem, Roxy usa um colar com o próprio nome."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

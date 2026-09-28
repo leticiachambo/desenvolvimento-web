@@ -1,0 +1,29 @@
+{
+  "id": 25,
+  "titulo": "Vice City Style — Botas",
+  "categoria": "Vestuário",
+  "imagem": "img/vestuario/vice-city-style-botas.jpg",
+  "alt": "Lucia sentada em um banco de piscina usando botas de cano alto com estampa de zebra e jaqueta marrom",
+  "descricao": [
+    "Lucia aparece à beira de uma piscina usando botas de salto e cano alto com estampa de zebra, combinadas com jaqueta marrom e óculos.",
+    "O look mostra o lado ousado e fashion do \"Vice City Style\"."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem usa",
+      "valor": "Lucia Caminos"
+    },
+    {
+      "rotulo": "Peça",
+      "valor": "Botas de cano alto"
+    },
+    {
+      "rotulo": "Pacote",
+      "valor": "Vice City Style (Ultimate Edition)"
+    }
+  ],
+  "curiosidades": [
+    "Estampas animais são muito associadas à moda de Miami, inspiração de Vice City."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

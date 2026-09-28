@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "titulo": "Lucia Caminos",
+  "categoria": "Personagens",
+  "imagem": "img/personagens/lucia-caminos.jpg",
+  "alt": "Lucia Caminos, de jaqueta de couro, sentada em uma moto amarela em frente a um letreiro neon de bar à noite",
+  "descricao": [
+    "Lucia Caminos é uma das duas protagonistas de GTA VI e a primeira mulher protagonista da série na era moderna. Segundo a Rockstar, o pai de Lucia a ensinou a lutar assim que ela aprendeu a andar, e desde então a vida sempre veio para cima dela.",
+    "Lutar pela família a levou à Penitenciária de Leonida. Ao sair, ela está determinada a não cometer os mesmos erros — e encontra em Jason Duval um parceiro para buscar uma vida melhor, ainda que pelo caminho do crime."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Papel",
+      "valor": "Protagonista"
+    },
+    {
+      "rotulo": "Parceiro",
+      "valor": "Jason Duval"
+    },
+    {
+      "rotulo": "Origem na história",
+      "valor": "Penitenciária de Leonida"
+    }
+  ],
+  "curiosidades": [
+    "Aparece na primeira cena do Trailer 1, ainda presa, conversando com uma agente da penitenciária.",
+    "A dupla Lucia e Jason faz referência ao estilo \"Bonnie e Clyde\" de crime em parceria."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

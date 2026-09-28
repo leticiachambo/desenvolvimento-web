@@ -1,0 +1,29 @@
+{
+  "id": 20,
+  "titulo": "Vapid Ganado",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/vapid-ganado.jpg",
+  "alt": "Picape cupê amarela com faixas laranja fazendo curva em uma estrada à beira-mar",
+  "descricao": [
+    "A Vapid Ganado é uma picape cupê — metade carro, metade caminhonete — em estilo anos 1970, com pintura amarela, faixas laranja e capô com entrada de ar.",
+    "A versão mostrada é uma customização \"retrô\", pensada para chamar atenção nas avenidas à beira-mar de Leonida."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Picape cupê"
+    },
+    {
+      "rotulo": "Fabricante (no jogo)",
+      "valor": "Vapid"
+    },
+    {
+      "rotulo": "Estilo",
+      "valor": "Retrô anos 1970"
+    }
+  ],
+  "curiosidades": [
+    "Picapes cupê lembram modelos clássicos americanos como a Ford Ranchero."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

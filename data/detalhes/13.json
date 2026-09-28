@@ -1,0 +1,29 @@
+{
+  "id": 13,
+  "titulo": "Ambrosia",
+  "categoria": "Locais",
+  "imagem": "img/locais/ambrosia.jpg",
+  "alt": "Vista noturna de uma região industrial com chaminés soltando fumaça e luzes espalhadas",
+  "descricao": [
+    "Ambrosia é uma região do interior de Leonida marcada pela indústria e pela agricultura. Uma grande refinaria de açúcar domina a paisagem e a economia local.",
+    "Além das fábricas, a área é território de gangues de motoqueiros, o que a torna um ponto de tensão no mapa."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Região industrial e agrícola"
+    },
+    {
+      "rotulo": "Destaque",
+      "valor": "Refinaria de açúcar"
+    },
+    {
+      "rotulo": "Grupos",
+      "valor": "Gangues de motoqueiros"
+    }
+  ],
+  "curiosidades": [
+    "A fumaça das chaminés é visível de longe, como mostra a imagem noturna."
+  ],
+  "fonte": "Rockstar Games — site oficial e trailers de GTA VI (rockstargames.com/VI)"
+}

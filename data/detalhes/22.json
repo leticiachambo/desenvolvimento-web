@@ -1,0 +1,29 @@
+{
+  "id": 22,
+  "titulo": "Visual Ultimate Edition",
+  "categoria": "Vestuário",
+  "imagem": "img/vestuario/ultimate-edition.jpg",
+  "alt": "Lucia com jaqueta marrom e óculos e Jason com camisa estampada e óculos amarelos, entre palmeiras ao pôr do sol",
+  "descricao": [
+    "Nesta imagem de divulgação, Lucia e Jason aparecem com visuais exclusivos: Lucia com jaqueta de camurça marrom e óculos, e Jason com camisa estampada e óculos de lentes amarelas.",
+    "As roupas seguem o estilo tropical de Vice City e fazem parte do material da Ultimate Edition."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Quem usa",
+      "valor": "Lucia e Jason"
+    },
+    {
+      "rotulo": "Estilo",
+      "valor": "Tropical / casual"
+    },
+    {
+      "rotulo": "Pacote",
+      "valor": "Ultimate Edition"
+    }
+  ],
+  "curiosidades": [
+    "A paleta de cores quentes do pôr do sol é marca registrada da identidade visual de GTA VI."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

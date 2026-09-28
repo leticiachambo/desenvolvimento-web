@@ -1,0 +1,119 @@
+/* =========================================================
+   Estilos próprios — Catálogo GTA VI
+   (complementam o Bootstrap 5; o layout usa o grid dele)
+   ========================================================= */
+
+:root {
+  --neon-rosa: #ff4fa3;
+  --neon-roxo: #9b5cff;
+  --neon-laranja: #ffb35c;
+  --fundo-escuro: #0f0b16;
+  --altura-navbar: 64px;
+}
+
+/* Evita rolagem horizontal e compensa a navbar fixa ao usar âncoras */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--altura-navbar);
+}
+
+body {
+  background-color: var(--fundo-escuro);
+  overflow-x: hidden;
+}
+
+/* Texto com efeito neon (gradiente rosa → laranja) */
+.texto-neon {
+  background: linear-gradient(90deg, var(--neon-rosa), var(--neon-laranja));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Botão principal no tema do site */
+.btn-neon {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--neon-rosa);
+  --bs-btn-border-color: var(--neon-rosa);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--neon-roxo);
+  --bs-btn-hover-border-color: var(--neon-roxo);
+  --bs-btn-active-bg: var(--neon-roxo);
+  --bs-btn-active-border-color: var(--neon-roxo);
+  --bs-btn-focus-shadow-rgb: 255, 79, 163;
+}
+
+/* Navbar com leve transparência */
+.navbar {
+  backdrop-filter: blur(8px);
+  --bs-bg-opacity: .85;
+}
+
+/* ---------- Seção de apresentação (hero) ---------- */
+.hero {
+  min-height: 100vh;
+  min-height: 100svh;
+  padding-top: var(--altura-navbar);
+  background:
+    linear-gradient(90deg, rgba(15, 11, 22, .95) 0%, rgba(15, 11, 22, .65) 55%, rgba(15, 11, 22, .25) 100%),
+    url("../img/locais/vice-city.jpg") center / cover no-repeat;
+}
+
+/* ---------- Cards do catálogo ---------- */
+.card-item {
+  background-color: #1a1424;
+  border: 1px solid rgba(255, 255, 255, .08);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.card-item:hover,
+.card-item:focus-within {
+  transform: translateY(-4px);
+  border-color: var(--neon-rosa);
+  box-shadow: 0 .5rem 1.5rem rgba(255, 79, 163, .25);
+}
+
+/* Imagem do card sempre em 16:9, sem distorcer
+   (height: auto anula a altura do atributo height do <img>) */
+.card-item .card-img-top {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card-item .card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Cores das etiquetas por categoria */
+.badge-categoria { font-weight: 600; }
+.badge-personagens { background-color: var(--neon-rosa); }
+.badge-locais      { background-color: #2bb3a3; }
+.badge-veiculos    { background-color: var(--neon-roxo); }
+.badge-vestuario   { background-color: #e08a1e; }
+
+/* ---------- Modal de detalhes ---------- */
+.modal-content {
+  background-color: #1a1424;
+}
+
+.detalhe-imagem {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Área dos estados (carregando/vazio/erro) */
+.estado {
+  min-height: 12rem;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 575.98px) {
+  .hero h1 { font-size: 2.2rem; }
+  .hero .btn-lg { width: 100%; }
+}

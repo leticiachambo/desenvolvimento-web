@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo interativo de GTA VI: personagens, locais, veículos e vestuário do estado de Leonida.">
+  <meta name="author" content="Letícia Souza dos Santos Chambó">
+  <title>Catálogo GTA VI | Leonida em detalhes</title>
+
+  <!-- Bootstrap 5 e Bootstrap Icons (CDN jsDelivr) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Estilos próprios -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== CABEÇALHO + NAVEGAÇÃO ===================== -->
+  <header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark-subtle border-bottom border-secondary-subtle" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">
+          <i class="bi bi-controller" aria-hidden="true"></i>
+          GTA <span class="texto-neon">VI</span> Catálogo
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu de navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre o projeto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== 1. APRESENTAÇÃO ===================== -->
+    <section id="inicio" class="hero d-flex align-items-center" aria-labelledby="titulo-principal">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <p class="text-uppercase fw-semibold texto-neon mb-2">Bem-vindo a Leonida</p>
+            <h1 id="titulo-principal" class="display-4 fw-bold">Catálogo interativo de <span class="texto-neon">GTA VI</span></h1>
+            <p class="lead my-4">
+              Conheça os personagens, locais, veículos e estilos de <strong>Grand Theft Auto VI</strong>.
+              Busque, filtre por categoria e abra os detalhes de cada item sem recarregar a página.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <a href="#catalogo" class="btn btn-neon btn-lg">
+                <i class="bi bi-grid-3x3-gap-fill" aria-hidden="true"></i> Explorar catálogo
+              </a>
+              <a href="#sobre" class="btn btn-outline-light btn-lg">Sobre o projeto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. CATÁLOGO ===================== -->
+    <section id="catalogo" class="py-5" aria-labelledby="titulo-catalogo">
+      <div class="container">
+        <header class="mb-4">
+          <h2 id="titulo-catalogo" class="fw-bold">Catálogo</h2>
+          <p class="text-body-secondary mb-0">Os itens abaixo são carregados via AJAX a partir de <code>data/itens.json</code>.</p>
+        </header>
+
+        <!-- Formulário de busca e filtro -->
+        <form id="form-filtros" class="row g-3 align-items-end mb-4" role="search" aria-label="Buscar e filtrar itens do catálogo">
+          <div class="col-12 col-md-6 col-lg-5">
+            <label for="campo-busca" class="form-label">Buscar por nome ou descrição</label>
+            <div class="input-group">
+              <span class="input-group-text" aria-hidden="true"><i class="bi bi-search"></i></span>
+              <input type="search" id="campo-busca" class="form-control" placeholder="Ex.: Lucia, Vice City, lancha..." autocomplete="off">
+            </div>
+          </div>
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3">
+            <label for="filtro-categoria" class="form-label">Categoria</label>
+            <select id="filtro-categoria" class="form-select">
+              <option value="">Todas as categorias</option>
+              <!-- As demais opções são criadas pelo JavaScript a partir dos dados -->
+            </select>
+          </div>
+          <div class="col-12 col-sm-4 col-md-2 col-lg-2">
+            <button type="reset" class="btn btn-outline-light w-100">
+              <i class="bi bi-x-circle" aria-hidden="true"></i> Limpar
+            </button>
+          </div>
+        </form>
+
+        <!-- Contador de resultados (lido por leitores de tela quando muda) -->
+        <p id="contador" class="text-body-secondary small" aria-live="polite"></p>
+
+        <!-- Área de estados: carregando / vazio / erro -->
+        <div id="estado-lista" aria-live="polite"></div>
+
+        <!-- Grid de cards (preenchido pelo JavaScript) -->
+        <div id="lista-itens" class="row g-4"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. SOBRE O PROJETO ===================== -->
+    <section id="sobre" class="py-5 bg-body-tertiary" aria-labelledby="titulo-sobre">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-lg-5">
+            <h2 id="titulo-sobre" class="fw-bold">Sobre o projeto</h2>
+            <p>
+              Este site foi desenvolvido como atividade da disciplina <strong>Desenvolvimento Web</strong>.
+              O objetivo é praticar HTML semântico, layout responsivo com Bootstrap 5 e requisições AJAX
+              com a <strong>Fetch API</strong>.
+            </p>
+            <p class="mb-0">
+              <strong>Autora:</strong> Letícia Souza dos Santos Chambó
+            </p>
+          </div>
+          <div class="col-12 col-lg-7">
+            <h3 class="h5 mb-3">Perguntas frequentes</h3>
+            <!-- Componente interativo do Bootstrap: Accordion -->
+            <div class="accordion" id="accordionSobre">
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                    Como os dados são carregados?
+                  </button>
+                </h4>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionSobre">
+                  <div class="accordion-body">
+                    A listagem é obtida com <code>fetch("data/itens.json")</code>. Ao clicar em
+                    <em>Ver detalhes</em>, é feita uma <strong>nova requisição</strong> para
+                    <code>data/detalhes/{id}.json</code> e o resultado é mostrado em um modal.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    Quais tecnologias foram usadas?
+                  </button>
+                </h4>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionSobre">
+                  <div class="accordion-body">
+                    <ul class="mb-0">
+                      <li>HTML5 semântico</li>
+                      <li>CSS próprio + Bootstrap 5.3 e Bootstrap Icons</li>
+                      <li>JavaScript puro (sem frameworks) com Fetch API</li>
+                      <li>Arquivos JSON locais servidos por HTTP</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    De onde vêm as informações e imagens?
+                  </button>
+                </h4>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionSobre">
+                  <div class="accordion-body">
+                    Textos escritos para este projeto com base no site oficial e nos trailers de GTA VI divulgados
+                    pela <strong>Rockstar Games</strong>. As imagens são material oficial de divulgação da
+                    Rockstar Games, usadas apenas para fins educacionais.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h4 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    Como testar os estados de carregamento e erro?
+                  </button>
+                </h4>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionSobre">
+                  <div class="accordion-body">
+                    Adicione <code>?lento=1</code> ao endereço para ver o indicador de carregamento por mais tempo,
+                    <code>?erro=lista</code> ou <code>?erro=detalhes</code> para simular uma falha na requisição
+                    e testar o botão <em>Tentar novamente</em>. Buscar um termo inexistente (ex.: <code>xyz</code>)
+                    mostra a mensagem de nenhum resultado.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="py-4 border-top border-secondary-subtle">
+    <div class="container text-center small text-body-secondary">
+      <p class="mb-1">&copy; 2026 Letícia Souza dos Santos Chambó — Desenvolvimento Web</p>
+      <p class="mb-0">
+        Projeto acadêmico sem fins lucrativos. GTA VI, imagens e marcas pertencem à Rockstar Games / Take-Two Interactive.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ===================== MODAL DE DETALHES ===================== -->
+  <div class="modal fade" id="modalDetalhes" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title h5" id="modalTitulo">Detalhes</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body" id="modalCorpo" aria-live="polite">
+          <!-- Conteúdo carregado via AJAX -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (inclui Popper) e script da aplicação -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

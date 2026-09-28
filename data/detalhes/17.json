@@ -1,0 +1,29 @@
+{
+  "id": 17,
+  "titulo": "Caiaque",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/caiaque.jpg",
+  "alt": "Pessoa remando um caiaque laranja em águas calmas ao pôr do sol, com casas e palmeiras ao fundo",
+  "descricao": [
+    "O caiaque é um veículo aquático movido a remo, mostrado navegando em águas calmas ao pôr do sol, perto de casas à beira d'água.",
+    "É uma forma silenciosa e relaxante de explorar canais, rios e o litoral — algo que combina com a geografia cheia de água de Leonida."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Embarcação a remo"
+    },
+    {
+      "rotulo": "Ambiente",
+      "valor": "Rios, canais e litoral"
+    },
+    {
+      "rotulo": "Ritmo",
+      "valor": "Lazer"
+    }
+  ],
+  "curiosidades": [
+    "Mostra o foco de GTA VI em atividades do dia a dia e lazer, além da ação."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

@@ -1,0 +1,29 @@
+{
+  "id": 26,
+  "titulo": "Vintage Vice City — Looks",
+  "categoria": "Vestuário",
+  "imagem": "img/vestuario/vintage-looks.jpg",
+  "alt": "Casal dançando em uma discoteca com luzes roxas, ele de terno cinza e ela de vestido vermelho brilhante",
+  "descricao": [
+    "Um casal dança em uma discoteca iluminada em tons de roxo: ele de terno cinza e óculos, ela com vestido vermelho de paetês.",
+    "Os visuais fazem parte do pacote \"Vintage Vice City\", que homenageia a era de ouro das discotecas e o clima retrô da cidade."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Estilo",
+      "valor": "Discoteca retrô"
+    },
+    {
+      "rotulo": "Peças",
+      "valor": "Terno e vestido de paetês"
+    },
+    {
+      "rotulo": "Pacote",
+      "valor": "Vintage Vice City"
+    }
+  ],
+  "curiosidades": [
+    "GTA: Vice City (2002) se passava em 1986 e ficou famoso pela trilha sonora e moda dos anos 1980."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

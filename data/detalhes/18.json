@@ -1,0 +1,29 @@
+{
+  "id": 18,
+  "titulo": "Squalo",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/squalo.jpg",
+  "alt": "Lancha branca com o nome Squalo na lateral, parada em um canal com palmeiras ao fundo",
+  "descricao": [
+    "A Squalo é uma lancha esportiva branca, rápida e elegante, ideal para os canais de Vice City e para o mar aberto das Leonida Keys.",
+    "É um veículo clássico da série: a Squalo já podia ser pilotada em GTA III e GTA: Vice City."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Lancha"
+    },
+    {
+      "rotulo": "Ambiente",
+      "valor": "Canais e mar aberto"
+    },
+    {
+      "rotulo": "Na série desde",
+      "valor": "GTA III / Vice City"
+    }
+  ],
+  "curiosidades": [
+    "\"Squalo\" significa \"tubarão\" em italiano."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}

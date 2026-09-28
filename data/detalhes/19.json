@@ -1,0 +1,29 @@
+{
+  "id": 19,
+  "titulo": "Vapid Buggy",
+  "categoria": "Veículos",
+  "imagem": "img/veiculos/vapid-buggy.jpg",
+  "alt": "Carro antigo elevado com pneus gigantes de lama e faróis auxiliares, estacionado em frente a uma oficina",
+  "descricao": [
+    "Este Vapid foi transformado em um verdadeiro monstro off-road: suspensão elevada, pneus gigantes com cravos, para-choque reforçado e faróis auxiliares no teto.",
+    "É o tipo de veículo feito para o interior de Leonida, como pântanos, trilhas e estradas de terra."
+  ],
+  "ficha": [
+    {
+      "rotulo": "Tipo",
+      "valor": "Off-road / buggy"
+    },
+    {
+      "rotulo": "Fabricante (no jogo)",
+      "valor": "Vapid"
+    },
+    {
+      "rotulo": "Terreno",
+      "valor": "Lama e terra"
+    }
+  ],
+  "curiosidades": [
+    "Vapid é a paródia da Ford no universo GTA."
+  ],
+  "fonte": "Rockstar Games — material de divulgação das edições de GTA VI"
+}
