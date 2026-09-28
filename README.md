@@ -1,4 +1,4 @@
-# Catálogo Interativo — GTA VI
+# GTA VI Explorer
 
 | | |
 |---|---|
@@ -7,7 +7,7 @@
 | **Tema** | GTA VI (Grand Theft Auto VI) |
 | **Tecnologias** | HTML5, CSS3, JavaScript (Fetch API), Bootstrap 5 |
 
-Catálogo interativo sobre o universo de **GTA VI**, com **26 itens** em 4 categorias
+**GTA VI Explorer** é um catálogo interativo sobre o universo de **GTA VI**, com **26 itens** em 4 categorias
 (Personagens, Locais, Veículos e Vestuário). Os dados são obtidos por **requisições AJAX**
 a arquivos JSON, e é possível buscar, filtrar e ver os detalhes de cada item **sem recarregar a página**.
 

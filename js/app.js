@@ -1,5 +1,5 @@
 /* =========================================================
-   Catálogo GTA VI — lógica da aplicação
+   GTA VI Explorer — lógica da aplicação
    Autora: Letícia Souza dos Santos Chambó
 
    Fluxo geral:
